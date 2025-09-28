@@ -1,0 +1,48 @@
+/*main css*/
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background-color: rgb(190, 190, 190);
+      min-height: 100vh;
+      
+    }
+:root {
+  /* Header (light) */
+  --header-bg: #2d5016;
+  --header-text: #111827;
+  --header-border: #e5e7eb;
+  --header-link: #374151;
+  --header-link-hover: #2563eb;
+
+  /* Buttons (light) */
+  --btn-bg: #f9fafb;
+  --btn-border: #d1d5db;
+  --btn-text: #111827;
+  --btn-hover: #e5e7eb;
+  --btn-primary: #2563eb;
+  --btn-primary-hover: #1d4ed8;
+}
+
+[data-theme="dark"] {
+  /* Header (dark) */
+  --header-bg: #4a7c59;
+  --header-text: #f9fafb;
+  --header-border: #334155;
+  --header-link: #d1d5db;
+  --header-link-hover: #3b82f6;
+
+  /* Buttons (dark) */
+  --btn-bg: #111827;
+  --btn-border: #374151;
+  --btn-text: #f9fafb;
+  --btn-hover: #1f2937;
+  --btn-primary: #3b82f6;
+  --btn-primary-hover: #2563eb;
+}
+
+      
